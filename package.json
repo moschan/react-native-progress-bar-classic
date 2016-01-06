@@ -1,0 +1,14 @@
+{
+  "name": "react-native-progress-bar-classic",
+  "version": "1.0.0",
+  "description": "simple animated progress bar for React Native",
+  "main": "/lib/index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "",
+  "license": "MIT"
+}
