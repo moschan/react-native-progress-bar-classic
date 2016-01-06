@@ -1,14 +1,31 @@
 {
   "name": "react-native-progress-bar-classic",
   "version": "1.0.0",
-  "description": "simple animated progress bar for React Native",
-  "main": "/lib/index.js",
+  "description": "Simple animated progress bar for React Native",
+  "main": "lib/index.js",
   "directories": {
     "example": "example"
   },
   "scripts": {
     "test": "npm test"
   },
-  "author": "",
-  "license": "MIT"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moschan/react-native-progress-bar-classic.git"
+  },
+  "keywords": [
+    "react-component",
+    "react-native",
+    "ios",
+    "android",
+    "progress",
+    "progress-bar",
+    "animation"
+  ],
+  "author": "moschan <kota.frsw＠gmail.com> (http://moschan.com/blog)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/moschan/react-native-progress-bar-classic/issues"
+  },
+  "homepage": "https://github.com/moschan/react-native-progress-bar-classic#readme"
 }
