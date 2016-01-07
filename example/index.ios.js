@@ -4,7 +4,7 @@
  */
 'use strict';
 
-import PBC from './lib/index.js'
+import PBC from 'react-native-progress-bar-clasic'
 
 var React = require('react-native');
 var {
@@ -26,29 +26,38 @@ var ProgressBarClassicProject = React.createClass({
       <View style={styles.container}>
         <Text style={styles.welcome}>Progress Bar Classic Example</Text>
         <PBC
-          dispPercentage={true}
-          dispStyle={'baloon'}
-          height={20}
-          fillColor={{}}
-          backgroundColor={{}}
-          borderColor={{}}
+          valueStyle={'baloon'}
+          progress={this.state.progress}
+          height={20} /* future work */
+          fillColor={{}} /* future work */
+          backgroundColor={{}} /* future work */
+          borderColor={{}} /* future work */
+        />
+
+        <PBC
+          valueStyle={'default'}
           progress={this.state.progress}
         />
+
+        <PBC
+          valueStyle={'none'}
+          progress={this.state.progress}
+        />
+
         <TouchableOpacity
           onPress={() => {
             this.setState({progress: Math.min(...[this.state.progress + 20, 100])})
-            console.log(this.state.progress)
           }}
           style={styles.button}
         >
-          <Text>+20</Text>
+          <Text>+20%</Text>
         </TouchableOpacity>
 
         <TouchableOpacity
           onPress={() => {this.setState({progress: Math.max(...[this.state.progress -= 20, 0])})}}
           style={styles.button}
         >
-          <Text>-20</Text>
+          <Text>-20%</Text>
         </TouchableOpacity>
 
       </View>
@@ -62,7 +71,7 @@ var styles = StyleSheet.create({
     justifyContent: 'center',
     // alignItems: 'center',
     backgroundColor: '#F5FCFF',
-    margin: 10,
+    padding: 25,
   },
   welcome: {
     fontSize: 20,
