@@ -40,7 +40,7 @@ Simple
 Customized
 ---
 ```
-<Newsticker
+<ProgressBarClassic
   progress={20}
   valueStyle={'balloon'}
 />
