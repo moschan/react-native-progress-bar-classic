@@ -4,7 +4,7 @@
  */
 'use strict';
 
-import PBC from 'react-native-progress-bar-clasic'
+import PBC from 'react-native-progress-bar-classic'
 
 var React = require('react-native');
 var {
