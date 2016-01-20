@@ -71,11 +71,22 @@ valueStyle(String) `Default: 'default'`
 
 ![Demo](./doc/none.jpg)
 
+label(String)
+---
+The bar label. You cannot use with `valueStyle: 'baloon'`.
+
+![Demo](./doc/label.jpg)
+
+value(String)
+---
+If you want to show value, you can use the `value` props. You have to use `value` props with `label` props.
+
+![Demo](./doc/value.jpg)
 
 TODO
 ==
 - [ ] can change style (color, height, etc..)
-
+- 
 
 Contributing
 ==
