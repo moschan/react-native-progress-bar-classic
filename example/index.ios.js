@@ -4,6 +4,7 @@
  */
 'use strict';
 
+// import PBC from './index.js'
 import PBC from 'react-native-progress-bar-classic'
 
 var React = require('react-native');
@@ -41,6 +42,19 @@ var ProgressBarClassicProject = React.createClass({
 
         <PBC
           valueStyle={'none'}
+          progress={this.state.progress}
+        />
+
+        <PBC
+          valueStyle={'default'}
+          label={'Label'}
+          progress={this.state.progress}
+        />
+
+        <PBC
+          valueStyle={'default'}
+          label={'Label'}
+          value={123}
           progress={this.state.progress}
         />
 

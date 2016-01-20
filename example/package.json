@@ -6,9 +6,10 @@
     "start": "react-native start"
   },
   "dependencies": {
-    "react-native": "^0.17.0"
+    "react-native": "^0.17.0",
+    "react-native-progress-bar-classic": "^1.1.0"
   },
   "devDependencies": {
-    "react-native-progress-bar-classic": "^1.0.0"
+    "react-native-progress-bar-classic": "^1.1.0"
   }
 }
