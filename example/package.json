@@ -1,15 +1,13 @@
 {
-  "name": "ProgressBarClassic",
+  "name": "ProggressBarExample",
   "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "react-native start"
   },
   "dependencies": {
-    "react-native": "^0.17.0",
-    "react-native-progress-bar-classic": "^1.1.0"
-  },
-  "devDependencies": {
-    "react-native-progress-bar-classic": "^1.1.0"
+    "react": "15.0.2",
+    "react-native": "^0.26.3",
+    "react-native-progress-bar-classic": "^1.2.0"
   }
 }

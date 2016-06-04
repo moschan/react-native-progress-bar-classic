@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "ProgressBarClassic.app"
-               BlueprintName = "ProgressBarClassic"
-               ReferencedContainer = "container:ProgressBarClassic.xcodeproj">
+               BuildableName = "ProggressBarExample.app"
+               BlueprintName = "ProggressBarExample"
+               ReferencedContainer = "container:ProggressBarExample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "ProgressBarClassicTests.xctest"
-               BlueprintName = "ProgressBarClassicTests"
-               ReferencedContainer = "container:ProgressBarClassic.xcodeproj">
+               BuildableName = "ProggressBarExampleTests.xctest"
+               BlueprintName = "ProggressBarExampleTests"
+               ReferencedContainer = "container:ProggressBarExample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "ProgressBarClassicTests.xctest"
-               BlueprintName = "ProgressBarClassicTests"
-               ReferencedContainer = "container:ProgressBarClassic.xcodeproj">
+               BuildableName = "ProggressBarExampleTests.xctest"
+               BlueprintName = "ProggressBarExampleTests"
+               ReferencedContainer = "container:ProggressBarExample.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "ProgressBarClassic.app"
-            BlueprintName = "ProgressBarClassic"
-            ReferencedContainer = "container:ProgressBarClassic.xcodeproj">
+            BuildableName = "ProggressBarExample.app"
+            BlueprintName = "ProggressBarExample"
+            ReferencedContainer = "container:ProggressBarExample.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -77,9 +77,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "ProgressBarClassic.app"
-            BlueprintName = "ProgressBarClassic"
-            ReferencedContainer = "container:ProgressBarClassic.xcodeproj">
+            BuildableName = "ProggressBarExample.app"
+            BlueprintName = "ProggressBarExample"
+            ReferencedContainer = "container:ProggressBarExample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -96,9 +96,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "ProgressBarClassic.app"
-            BlueprintName = "ProgressBarClassic"
-            ReferencedContainer = "container:ProgressBarClassic.xcodeproj">
+            BuildableName = "ProggressBarExample.app"
+            BlueprintName = "ProggressBarExample"
+            ReferencedContainer = "container:ProggressBarExample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

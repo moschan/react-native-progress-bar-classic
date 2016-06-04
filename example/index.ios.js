@@ -1,28 +1,29 @@
 /**
  * Sample React Native App
  * https://github.com/facebook/react-native
+ * @flow
  */
-'use strict';
+
+import React, { Component } from 'react';
+import {
+  AppRegistry,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  View
+} from 'react-native';
 
 // import PBC from './index.js'
 import PBC from 'react-native-progress-bar-classic'
 
-var React = require('react-native');
-var {
-  AppRegistry,
-  StyleSheet,
-  Text,
-  View,
-  TouchableOpacity,
-} = React;
-
-var ProgressBarClassicProject = React.createClass({
-  getInitialState() {
-    return {
+class ProggressBarExample extends Component {
+  constructor (props) {
+    super(props)
+    this.state = {
       progress: 20,
-    };
-  },
-  render: function() {
+    }
+  }
+  render() {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>Progress Bar Classic Example</Text>
@@ -77,13 +78,12 @@ var ProgressBarClassicProject = React.createClass({
       </View>
     );
   }
-});
+}
 
-var styles = StyleSheet.create({
+const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center',
-    // alignItems: 'center',
     backgroundColor: '#F5FCFF',
     padding: 25,
   },
@@ -97,7 +97,6 @@ var styles = StyleSheet.create({
     color: '#333333',
     marginBottom: 5,
   },
-
   button: {
     borderWidth: 2,
     height: 30,
@@ -105,7 +104,6 @@ var styles = StyleSheet.create({
     alignItems: 'center',
     marginBottom: 5,
   },
-
 });
 
-AppRegistry.registerComponent('ProgressBarClassic', () => ProgressBarClassicProject);
+AppRegistry.registerComponent('ProggressBarExample', () => ProggressBarExample);
