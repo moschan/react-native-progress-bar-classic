@@ -21,19 +21,14 @@ in Cli
 npm i react-native-progress-bar-classic
 ```
 
-in JavaScirpt
----
-```
-import ProgressBarClassic from 'react-native-progress-bar-classic';
-```
-
-
 Usage
 ===
 
 Simple
 ---
 ```
+import ProgressBarClassic from 'react-native-progress-bar-classic';
+
 <ProgressBarClassic progress={20} />
 ```
 
