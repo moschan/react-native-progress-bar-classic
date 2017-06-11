@@ -3,9 +3,13 @@
   "version": "1.2.0",
   "description": "Simple animated progress bar for React Native",
   "main": "index.js",
-  "directories": {
-    "example": "example"
-  },
+  "files": [
+    "README.md",
+    "index.js",
+    "package.json",
+    "lib",
+    "test"
+  ],
   "scripts": {
     "test": "npm test"
   },
