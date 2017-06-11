@@ -28,7 +28,7 @@ class ProggressBarExample extends Component {
       <View style={styles.container}>
         <Text style={styles.welcome}>Progress Bar Classic Example</Text>
         <PBC
-          valueStyle={'baloon'}
+          valueStyle={'balloon'}
           progress={this.state.progress}
           height={20} /* future work */
           fillColor={{}} /* future work */
