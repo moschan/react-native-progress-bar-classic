@@ -68,7 +68,7 @@ valueStyle(String) `Default: 'default'`
 
 label(String)
 ---
-The bar label. You cannot use with `valueStyle: 'baloon'`.
+The bar label. You cannot use with `valueStyle: 'balloon'`.
 
 ![Demo](./doc/label.jpg)
 
