@@ -1,6 +1,6 @@
 {
   "name": "react-native-progress-bar-classic",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Simple animated progress bar for React Native",
   "main": "index.js",
   "files": [
